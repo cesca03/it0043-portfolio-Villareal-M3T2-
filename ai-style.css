@@ -1,0 +1,51 @@
+/* Rival stylesheet generated from the HTML markup only. */
+body { margin: 0; color: #263044; background: #f3f0ff; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 1.6; }
+header .container { width: 88%; margin: auto; }
+header .header-inner { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; }
+header nav { display: flex; gap: 12px; }
+body header .container nav a { color: navy; text-decoration: none; padding: 10px 12px; border-radius: 8px; }
+body header .container nav a:hover { color: white; background: #5d4ac7; }
+body header .container nav a:focus { outline: 2px solid orange; }
+body header .container nav a[aria-current="page"] { background: #ded9f5; }
+.brand { color: #263044; font-size: 28px; font-weight: bold; text-decoration: none; }
+.brand span, .hero h1 span { color: #5d4ac7; }
+main { width: 88%; margin: 0 auto; padding: 56px 0; }
+h1, h2, h3 { color: #263044; line-height: 1.15; }
+h1 { font-family: Georgia, serif; font-size: 56px; }
+h2 { font-family: Georgia, serif; font-size: 38px; }
+h3 { font-size: 22px; }
+p { margin-top: 0; }
+.eyebrow, .card-kicker { color: #7669a9; font-size: 13px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; }
+.hero { padding: 55px 0 70px; max-width: 800px; }
+.hero-copy, .lead { font-size: 20px; }
+.button-row { display: flex; gap: 12px; }
+.button { display: inline-block; padding: 12px 22px; border: 0; border-radius: 8px; font: inherit; font-weight: bold; text-decoration: none; cursor: pointer; }
+.button-primary { color: white; background: #5d4ac7; }
+.button-secondary { color: #5d4ac7; border: 2px solid #5d4ac7; }
+.button-light { color: #263044; background: white; }
+.button:hover { opacity: 0.85; }
+.section-block { margin: 45px 0 80px; }
+.section-heading { display: flex; align-items: end; justify-content: space-between; margin-bottom: 20px; }
+.card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.card { padding: 24px; background: white; border: 1px solid #ddd8ef; border-radius: 12px; box-shadow: 0 4px 14px #26304418; }
+.card p:last-child { margin-bottom: 0; }
+.text-link { color: #5140ad; font-weight: bold; }
+.callout { display: flex; justify-content: space-between; align-items: center; margin: 70px 0; padding: 32px; color: white; background: #5d4ac7; border-radius: 14px; }
+.callout .eyebrow { color: white; }
+.page-intro { max-width: 760px; margin-bottom: 50px; }
+.split-layout, .contact-layout { display: grid; grid-template-columns: 1.5fr 1fr; gap: 40px; align-items: start; }
+.prose h2 { margin-top: 38px; }
+.tag-list { display: flex; gap: 8px; padding: 0; list-style: none; }
+.tag-list li { padding: 5px 10px; color: navy; background: #ded9f5; border-radius: 20px; font-size: 13px; }
+.project-grid { grid-template-columns: 1fr 1fr; }
+.project-card { min-height: 285px; }
+.project-note, .note, .contact-aside { color: #8a92a0; }
+.contact-card form { display: grid; gap: 12px; }
+.contact-card label { font-weight: bold; }
+.contact-card input, .contact-card textarea { width: 100%; padding: 12px; border: 1px solid #ddd8ef; border-radius: 6px; font: inherit; }
+.contact-card button { justify-self: start; }
+.contact-aside h2 { font-family: Georgia, serif; }
+.site-footer { color: #8a92a0; background: white; border-top: 1px solid #ddd8ef; }
+.footer-inner { display: flex; justify-content: space-between; width: 88%; margin: auto; padding: 22px 0; font-size: 14px; }
+.skip-link { position: absolute; left: -9999px; }
+.skip-link:focus { left: 20px; top: 20px; color: white; background: navy; }
